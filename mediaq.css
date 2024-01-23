@@ -1,0 +1,99 @@
+@media (max-width:1024px) {
+    .wrapper{
+        width: 34vw;
+        height: 50vh;
+    }
+    form button{
+        height: 7.5vh;
+        font-size: 1.4vw;
+    }
+}
+@media (max-width:768px){
+    .wrapper{
+        height: 60vh;
+        border-radius: 12px;
+        justify-content:space-evenly;
+    }
+    .wrapper p{
+        font-size: 1.6vw;
+    }
+    .material-symbols-outlined{
+        display: block;
+        color: #ebebe3;
+        font-size: 4vw;
+    }
+}
+@media (max-width:425px){
+    .wrapper{
+        height: 66vh;
+        width: 54vw;
+        box-shadow: 2px 2px 8px ;
+    }
+    .wrapper h2{
+        font-size: 4.8vw;
+    }
+    .wrapper p{
+        font-size: 2.5vw;
+        font-weight: 600;
+    }
+    .material-symbols-outlined{
+        font-size: 5.4vw;
+    }
+    form input{
+        width: 100%;
+        font-size: 2.1vw;
+        font-weight: 700;
+    }
+    form button{
+        font-size:2.1vw;
+    }
+}
+@media (max-width:375px) {
+    .wrapper{
+        height: 68vh;
+        width: 58vw;
+        box-shadow: 2px 2px 8px ;
+    }
+    .wrapper h2{
+        font-size: 5vw;
+    }
+    .wrapper p{
+        font-size: 2.7vw;
+    }
+    .material-symbols-outlined{
+        font-size: 6vw;
+    }
+    form input{
+        width: 100%;
+        font-size: 2.3vw;
+        font-weight: 700;
+    }
+    form button{
+        font-size:2vw;
+        font-weight: 600;
+    }
+}
+@media (max-width:320px){
+    .wrapper{
+        width: 68vw;
+        padding: 0 4px;
+    }
+    .wrapper h2{
+        font-size: 5.9vw;
+    }
+    .wrapper p{
+        font-size: 3vw;
+    }
+    .material-symbols-outlined{
+        font-size: 7vw;
+    }
+    form input{
+        width: 100%;
+        font-size: 2.8vw;
+        font-weight: 700;
+    }
+    form button{
+        font-size:2.6vw;
+        font-weight: 600;
+    }
+}
